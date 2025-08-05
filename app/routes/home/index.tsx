@@ -37,25 +37,31 @@ const HomePage = ({ loaderData }: Route.ComponentProps) => {
         <input
           type="text"
           placeholder="Pesquise por bolos, kits e outras comidas..."
-          className="w-full bg-[#363636] px-4 py-2 rounded-md focus:outline-none"
+          className="w-full bg-[#f4e7ed] px-4 py-2 rounded-md text-sm placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-pink-300 focus:border-pink-100 transition"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
       <h2 className="mt-5 text-3xl font-semibold">Produtos</h2>
-      <div className="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {productsFiltered.map((p) => (
-          <Link key={p.id} to={`/details/${p.id}`} className="transition transform duration-300 hover:-translate-y-2">
-            <div className="bg-[#0d0d0d] p-4 overflow-hidden rounded-md">
-              <img
-                src={p.photos[0]}
-                alt={p.name}
-                className="h-40 w-full rounded-sm"
-              />
+          <Link
+            key={p.id}
+            to={`/products/${p.id}`}
+            className="transition transform duration-300 hover:-translate-y-2"
+          >
+            <div className="bg-gray-50 border border-gray-200 p-4 overflow-hidden rounded-md shadow-sm hover:shadow-md transition-shadow">
+              <div className="">
+                <img
+                  src={p.photos[0]}
+                  alt={p.name}
+                  className="h-full w-full rounded-sm"
+                />
+              </div>
               <div className="mt-3">
                 <h3 className="text-lg">{p.name}</h3>
                 <p className="text-sm mt-2 text-gray-500">{p.description}</p>
-                <p className="text-sm mt-2 font-semibold text-yellow-300">
+                <p className="text-base mt-2 font-semibold text-pink-600">
                   R$
                   {p.price.toLocaleString("pt-BR", {
                     minimumFractionDigits: 2,
