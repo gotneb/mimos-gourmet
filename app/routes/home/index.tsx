@@ -14,7 +14,7 @@ export function meta({}: Route.MetaArgs) {
 export async function loader({
   request,
 }: Route.LoaderArgs): Promise<Product[]> {
-  const res = await fetch("http://localhost:8000/products");
+  const res = await fetch(`${import.meta.env.VITE_API_URL}/products`);
   const data = await res.json();
 
   return data;

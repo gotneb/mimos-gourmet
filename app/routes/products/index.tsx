@@ -12,7 +12,7 @@ export async function loader({
   request,
   params,
 }: Route.LoaderArgs): Promise<Product> {
-  const res = await fetch(`http://localhost:8000/products/${params.id}`);
+  const res = await fetch(`${import.meta.env.VITE_API_URL}/products/${params.id}`);
   const data = await res.json();
 
   return data;
