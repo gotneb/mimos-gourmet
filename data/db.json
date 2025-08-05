@@ -1,0 +1,204 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Kit Festa Chocolate",
+      "description": "Kit completo para festas com bolo, docinhos e salgadinhos.",
+      "price": 129.9,
+      "photos": [],
+      "category": "Kit Festa"
+    },
+    {
+      "id": "2",
+      "name": "Festa na Caixa - Morango",
+      "description": "Uma experiência completa com bolo de morango e brigadeiros gourmet.",
+      "price": 89.9,
+      "photos": [],
+      "category": "Festa na Caixa"
+    },
+    {
+      "id": "3",
+      "name": "Bolo Chantinho de Ninho com Nutella",
+      "description": "Bolo leve com recheio de creme de ninho e cobertura de Nutella.",
+      "price": 74.9,
+      "photos": [],
+      "category": "Bolo Chantinho"
+    },
+    {
+      "id": "4",
+      "name": "Dindin Gourmet de Leite Ninho",
+      "description": "Dindin cremoso de leite ninho com textura suave.",
+      "price": 4.0,
+      "photos": [],
+      "category": "Dindin Gourmet"
+    },
+    {
+      "id": "5",
+      "name": "Brigadeiro Tradicional",
+      "description": "Brigadeiro clássico enrolado no granulado belga.",
+      "price": 1.5,
+      "photos": [],
+      "category": "Brigadeiro"
+    },
+    {
+      "id": "6",
+      "name": "Kit Festa Temático Unicórnio",
+      "description": "Kit decorado com tema de unicórnio para até 15 pessoas.",
+      "price": 159.9,
+      "photos": [],
+      "category": "Kit Festa"
+    },
+    {
+      "id": "7",
+      "name": "Festa na Caixa - Red Velvet",
+      "description": "Caixa com mini bolo red velvet e brigadeiros de leite ninho.",
+      "price": 99.9,
+      "photos": [],
+      "category": "Festa na Caixa"
+    },
+    {
+      "id": "8",
+      "name": "Bolo Chantinho de Chocolate",
+      "description": "Bolo fofinho com cobertura de chantinho sabor chocolate.",
+      "price": 65.0,
+      "photos": [],
+      "category": "Bolo Chantinho"
+    },
+    {
+      "id": "9",
+      "name": "Dindin Gourmet de Coco",
+      "description": "Delicioso dindin de coco com pedacinhos naturais.",
+      "price": 4.5,
+      "photos": [],
+      "category": "Dindin Gourmet"
+    },
+    {
+      "id": "10",
+      "name": "Brigadeiro de Paçoca",
+      "description": "Brigadeiro feito com paçoca moída, perfeito para festas juninas.",
+      "price": 1.8,
+      "photos": [],
+      "category": "Brigadeiro"
+    },
+    {
+      "id": "11",
+      "name": "Kit Festa Infantil",
+      "description": "Kit com mini sanduíches, bolo decorado e doces.",
+      "price": 139.0,
+      "photos": [],
+      "category": "Kit Festa"
+    },
+    {
+      "id": "12",
+      "name": "Festa na Caixa - Chocolate e Café",
+      "description": "Mini bolo de chocolate com toque de café e trufas.",
+      "price": 92.5,
+      "photos": [],
+      "category": "Festa na Caixa"
+    },
+    {
+      "id": "13",
+      "name": "Bolo Chantinho de Maracujá",
+      "description": "Bolo suave com cobertura de chantinho e calda de maracujá.",
+      "price": 69.9,
+      "photos": [],
+      "category": "Bolo Chantinho"
+    },
+    {
+      "id": "14",
+      "name": "Dindin Gourmet de Nutella",
+      "description": "Dindin gelado e cremoso com recheio de Nutella.",
+      "price": 5.0,
+      "photos": [],
+      "category": "Dindin Gourmet"
+    },
+    {
+      "id": "15",
+      "name": "Brigadeiro de Pistache",
+      "description": "Brigadeiro sofisticado com pistache moído.",
+      "price": 2.2,
+      "photos": [],
+      "category": "Brigadeiro"
+    },
+    {
+      "id": "16",
+      "name": "Kit Festa Casamento",
+      "description": "Kit elegante para pequenos casamentos com doces finos.",
+      "price": 199.9,
+      "photos": [],
+      "category": "Kit Festa"
+    },
+    {
+      "id": "17",
+      "name": "Festa na Caixa - Beijinho",
+      "description": "Mini bolo de coco com docinhos personalizados.",
+      "price": 87.0,
+      "photos": [],
+      "category": "Festa na Caixa"
+    },
+    {
+      "id": "18",
+      "name": "Bolo Chantinho de Limão Siciliano",
+      "description": "Bolo refrescante com toque cítrico e cobertura suave.",
+      "price": 68.0,
+      "photos": [],
+      "category": "Bolo Chantinho"
+    },
+    {
+      "id": "19",
+      "name": "Dindin Gourmet de Abacaxi com Hortelã",
+      "description": "Combinação tropical e refrescante em forma de dindin.",
+      "price": 4.2,
+      "photos": [],
+      "category": "Dindin Gourmet"
+    },
+    {
+      "id": "20",
+      "name": "Brigadeiro Meio Amargo",
+      "description": "Brigadeiro com chocolate 70% cacau.",
+      "price": 1.9,
+      "photos": [],
+      "category": "Brigadeiro"
+    },
+    {
+      "id": "21",
+      "name": "Kit Festa Teen",
+      "description": "Ideal para festas adolescentes com decoração moderna.",
+      "price": 149.9,
+      "photos": [],
+      "category": "Kit Festa"
+    },
+    {
+      "id": "22",
+      "name": "Festa na Caixa - Misto",
+      "description": "Caixa com mix de sabores e doces variados.",
+      "price": 95.0,
+      "photos": [],
+      "category": "Festa na Caixa"
+    },
+    {
+      "id": "23",
+      "name": "Bolo Chantinho Trufado",
+      "description": "Bolo com recheio trufado e cobertura de chantinho.",
+      "price": 79.9,
+      "photos": [],
+      "category": "Bolo Chantinho"
+    },
+    {
+      "id": "24",
+      "name": "Dindin Gourmet de Morango",
+      "description": "Dindin feito com morango natural e leite condensado.",
+      "price": 4.8,
+      "photos": [],
+      "category": "Dindin Gourmet"
+    },
+    {
+      "id": "25",
+      "name": "Brigadeiro de Churros",
+      "description": "Brigadeiro com doce de leite e açúcar com canela.",
+      "price": 2.0,
+      "photos": [],
+      "category": "Brigadeiro"
+    }
+  ]
+}
