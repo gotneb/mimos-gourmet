@@ -1,204 +1,69 @@
 {
-  "products": [
+  "cakeCategories": [
     {
       "id": "1",
-      "name": "Kit Festa Chocolate",
-      "description": "Kit completo para festas com bolo, docinhos e salgadinhos.",
-      "price": 129.9,
-      "photos": ["/images/product_1.jpeg"],
-      "category": "Kit Festa"
+      "title": "Traditional Cakes",
+      "subtitle": "Price varies on size & flavor",
+      "image": "/images/product_1.jpeg"
     },
     {
       "id": "2",
-      "name": "Festa na Caixa - Morango",
-      "description": "Uma experiência completa com bolo de morango e brigadeiros gourmet.",
-      "price": 89.9,
-      "photos": ["/images/product_2.jpeg"],
-      "category": "Festa na Caixa"
+      "title": "Fest Kits I",
+      "subtitle": "Price varies on size & flavor",
+      "image": "/images/product_2.jpeg"
     },
     {
       "id": "3",
-      "name": "Bolo Chantinho de Ninho com Nutella",
-      "description": "Bolo leve com recheio de creme de ninho e cobertura de Nutella.",
-      "price": 74.9,
-      "photos": ["/images/product_3.jpeg"],
-      "category": "Bolo Chantinho"
+      "title": "Special Cakes",
+      "subtitle": "Price varies on size & flavor",
+      "image": "/images/product_3.jpeg"
     },
     {
       "id": "4",
-      "name": "Dindin Gourmet de Leite Ninho",
-      "description": "Dindin cremoso de leite ninho com textura suave.",
-      "price": 4.0,
-      "photos": ["/images/product_4.jpeg"],
-      "category": "Dindin Gourmet"
+      "title": "Customized Cakes",
+      "subtitle": "Price varies on size & flavor",
+      "image": "/images/product_4.jpeg"
     },
     {
       "id": "5",
-      "name": "Brigadeiro Tradicional",
-      "description": "Brigadeiro clássico enrolado no granulado belga.",
-      "price": 1.5,
-      "photos": ["/images/product_5.jpeg"],
-      "category": "Brigadeiro"
+      "title": "Kit Fest II",
+      "subtitle": "Price varies on size & flavor",
+      "image": "/images/product_5.jpeg"
     },
     {
       "id": "6",
-      "name": "Kit Festa Temático Unicórnio",
-      "description": "Kit decorado com tema de unicórnio para até 15 pessoas.",
-      "price": 159.9,
-      "photos": ["/images/product_6.jpeg"],
-      "category": "Kit Festa"
+      "title": "For Special Moments",
+      "subtitle": "Price varies on size & flavor",
+      "image": "/images/product_6.jpeg"
     },
     {
       "id": "7",
-      "name": "Festa na Caixa - Red Velvet",
-      "description": "Caixa com mini bolo red velvet e brigadeiros de leite ninho.",
-      "price": 99.9,
-      "photos": ["/images/product_7.jpeg"],
-      "category": "Festa na Caixa"
+      "title": "Specials",
+      "subtitle": "Price varies on size & flavor",
+      "image": "/images/product_7.jpeg"
+    }
+  ],
+  "featuredCakes": [
+    {
+      "id": "1",
+      "title": "Chocolate Fudge Cake",
+      "price": 25.00,
+      "description": "A rich and moist chocolate cake layered with creamy fudge frosting. Made with premium cocoa and fresh butter.",
+      "image": "/images/product_8.jpeg"
     },
     {
-      "id": "8",
-      "name": "Bolo Chantinho de Chocolate",
-      "description": "Bolo fofinho com cobertura de chantinho sabor chocolate.",
-      "price": 65.0,
-      "photos": ["/images/product_8.jpeg"],
-      "category": "Bolo Chantinho"
+      "id": "2",
+      "title": "Red Velvet Cake",
+      "price": 28.00,
+      "description": "A classic southern red velvet cake with a hint of cocoa, topped with a smooth cream cheese frosting.",
+      "image": "/images/product_9.jpeg"
     },
     {
-      "id": "9",
-      "name": "Dindin Gourmet de Coco",
-      "description": "Delicioso dindin de coco com pedacinhos naturais.",
-      "price": 4.5,
-      "photos": ["/images/product_9.jpeg"],
-      "category": "Dindin Gourmet"
-    },
-    {
-      "id": "10",
-      "name": "Brigadeiro de Paçoca",
-      "description": "Brigadeiro feito com paçoca moída, perfeito para festas juninas.",
-      "price": 1.8,
-      "photos": ["/images/cake.png"],
-      "category": "Brigadeiro"
-    },
-    {
-      "id": "11",
-      "name": "Kit Festa Infantil",
-      "description": "Kit com mini sanduíches, bolo decorado e doces.",
-      "price": 139.0,
-      "photos": ["/images/product_11.jpeg"],
-      "category": "Kit Festa"
-    },
-    {
-      "id": "12",
-      "name": "Festa na Caixa - Chocolate e Café",
-      "description": "Mini bolo de chocolate com toque de café e trufas.",
-      "price": 92.5,
-      "photos": ["/images/cake.png"],
-      "category": "Festa na Caixa"
-    },
-    {
-      "id": "13",
-      "name": "Bolo Chantinho de Maracujá",
-      "description": "Bolo suave com cobertura de chantinho e calda de maracujá.",
-      "price": 69.9,
-      "photos": ["/images/cake.png"],
-      "category": "Bolo Chantinho"
-    },
-    {
-      "id": "14",
-      "name": "Dindin Gourmet de Nutella",
-      "description": "Dindin gelado e cremoso com recheio de Nutella.",
-      "price": 5.0,
-      "photos": ["/images/cake.png"],
-      "category": "Dindin Gourmet"
-    },
-    {
-      "id": "15",
-      "name": "Brigadeiro de Pistache",
-      "description": "Brigadeiro sofisticado com pistache moído.",
-      "price": 2.2,
-      "photos": ["/images/cake.png"],
-      "category": "Brigadeiro"
-    },
-    {
-      "id": "16",
-      "name": "Kit Festa Casamento",
-      "description": "Kit elegante para pequenos casamentos com doces finos.",
-      "price": 199.9,
-      "photos": ["/images/cake.png"],
-      "category": "Kit Festa"
-    },
-    {
-      "id": "17",
-      "name": "Festa na Caixa - Beijinho",
-      "description": "Mini bolo de coco com docinhos personalizados.",
-      "price": 87.0,
-      "photos": ["/images/cake.png"],
-      "category": "Festa na Caixa"
-    },
-    {
-      "id": "18",
-      "name": "Bolo Chantinho de Limão Siciliano",
-      "description": "Bolo refrescante com toque cítrico e cobertura suave.",
-      "price": 68.0,
-      "photos": ["/images/cake.png"],
-      "category": "Bolo Chantinho"
-    },
-    {
-      "id": "19",
-      "name": "Dindin Gourmet de Abacaxi com Hortelã",
-      "description": "Combinação tropical e refrescante em forma de dindin.",
-      "price": 4.2,
-      "photos": ["/images/cake.png"],
-      "category": "Dindin Gourmet"
-    },
-    {
-      "id": "20",
-      "name": "Brigadeiro Meio Amargo",
-      "description": "Brigadeiro com chocolate 70% cacau.",
-      "price": 1.9,
-      "photos": ["/images/cake.png"],
-      "category": "Brigadeiro"
-    },
-    {
-      "id": "21",
-      "name": "Kit Festa Teen",
-      "description": "Ideal para festas adolescentes com decoração moderna.",
-      "price": 149.9,
-      "photos": ["/images/cake.png"],
-      "category": "Kit Festa"
-    },
-    {
-      "id": "22",
-      "name": "Festa na Caixa - Misto",
-      "description": "Caixa com mix de sabores e doces variados.",
-      "price": 95.0,
-      "photos": ["/images/cake.png"],
-      "category": "Festa na Caixa"
-    },
-    {
-      "id": "23",
-      "name": "Bolo Chantinho Trufado",
-      "description": "Bolo com recheio trufado e cobertura de chantinho.",
-      "price": 79.9,
-      "photos": ["/images/cake.png"],
-      "category": "Bolo Chantinho"
-    },
-    {
-      "id": "24",
-      "name": "Dindin Gourmet de Morango",
-      "description": "Dindin feito com morango natural e leite condensado.",
-      "price": 4.8,
-      "photos": ["/images/cake.png"],
-      "category": "Dindin Gourmet"
-    },
-    {
-      "id": "25",
-      "name": "Brigadeiro de Churros",
-      "description": "Brigadeiro com doce de leite e açúcar com canela.",
-      "price": 2.0,
-      "photos": ["/images/cake.png"],
-      "category": "Brigadeiro"
+      "id": "3",
+      "title": "Strawberry Shortcake",
+      "price": 22.00,
+      "description": "Light and airy sponge cake layered with fresh strawberries and whipped cream. A perfect summer treat.",
+      "image": "/images/product_11.jpeg"
     }
   ]
 }

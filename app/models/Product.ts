@@ -1,8 +1,23 @@
 export type Product = {
-  id: number;
+  id: string;
   name: string;
   description: string;
   price: number;
   photos: string[];
-  category: string[];
+  category: string;
+};
+
+export type CakeCategory = {
+  id: string;
+  title: string;
+  subtitle: string;
+  image: string;
+};
+
+export type FeaturedCake = {
+  id: string;
+  title: string;
+  price: number;
+  description: string;
+  image: string;
 };
