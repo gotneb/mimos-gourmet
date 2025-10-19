@@ -39,11 +39,11 @@ const ProductDetailPage = ({ loaderData }: Route.ComponentProps) => {
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <nav className="text-sm">
-            <Link to="/" className="text-gray-500 hover:text-orange-500">
+            <Link to="/" className="text-gray-500 hover:text-[#ffabf2]">
               Início
             </Link>
             <span className="mx-2 text-gray-400">›</span>
-            <Link to="/" className="text-gray-500 hover:text-orange-500">
+            <Link to="/" className="text-gray-500 hover:text-[#ffabf2]">
               Bolos
             </Link>
             <span className="mx-2 text-gray-400">›</span>
@@ -73,7 +73,7 @@ const ProductDetailPage = ({ loaderData }: Route.ComponentProps) => {
                   key={index}
                   onClick={() => setSelectedImage(index)}
                   className={`w-3 h-3 rounded-full transition-colors ${
-                    index === selectedImage ? 'bg-orange-500' : 'bg-gray-300'
+                    index === selectedImage ? 'bg-[#ffabf2]' : 'bg-gray-300'
                   }`}
                 />
               ))}
@@ -86,7 +86,7 @@ const ProductDetailPage = ({ loaderData }: Route.ComponentProps) => {
                   key={index}
                   onClick={() => setSelectedImage(index)}
                   className={`aspect-square overflow-hidden rounded-lg border-2 transition-colors ${
-                    index === selectedImage ? 'border-orange-500' : 'border-gray-200'
+                    index === selectedImage ? 'border-[#ffabf2]' : 'border-gray-200'
                   }`}
                 >
                   <img
@@ -122,7 +122,7 @@ const ProductDetailPage = ({ loaderData }: Route.ComponentProps) => {
                     const flavor = product.flavors.find(f => f.id === e.target.value);
                     if (flavor) setSelectedFlavor(flavor);
                   }}
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ffabf2] focus:border-[#ffabf2]"
                 >
                   {product.flavors.map((flavor) => (
                     <option key={flavor.id} value={flavor.id}>
@@ -143,7 +143,7 @@ const ProductDetailPage = ({ loaderData }: Route.ComponentProps) => {
                     const size = product.sizes.find(s => s.id === e.target.value);
                     if (size) setSelectedSize(size);
                   }}
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ffabf2] focus:border-[#ffabf2]"
                 >
                   {product.sizes.map((size) => (
                     <option key={size.id} value={size.id}>
@@ -164,7 +164,7 @@ const ProductDetailPage = ({ loaderData }: Route.ComponentProps) => {
                     const batterType = product.batterTypes.find(b => b.id === e.target.value);
                     if (batterType) setSelectedBatterType(batterType);
                   }}
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ffabf2] focus:border-[#ffabf2]"
                 >
                   {product.batterTypes.map((batterType) => (
                     <option key={batterType.id} value={batterType.id}>
@@ -180,13 +180,13 @@ const ProductDetailPage = ({ loaderData }: Route.ComponentProps) => {
               <h3 className="text-lg font-semibold text-gray-800 mb-2">
                 Preço Final
               </h3>
-              <p className="text-3xl font-bold text-orange-500">
+              <p className="text-3xl font-bold text-[#ffabf2]">
                 R$ {calculateFinalPrice().toFixed(2).replace('.', ',')}
               </p>
             </div>
 
             {/* Add to Cart Button */}
-            <button className="w-full bg-orange-500 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:bg-orange-600 transition-colors flex items-center justify-center space-x-2">
+            <button className="w-full bg-[#ffabf2] text-white py-4 px-6 rounded-lg font-semibold text-lg hover:bg-[#e099d9] transition-colors flex items-center justify-center space-x-2">
               <span>🛒</span>
               <span>Adicionar ao Carrinho</span>
             </button>

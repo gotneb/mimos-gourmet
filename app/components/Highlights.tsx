@@ -38,7 +38,7 @@ const Highlights = ({ featuredCakes }: HighlightsProps) => {
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
                   {cake.title}
                 </h3>
-                <p className="text-2xl font-bold text-orange-500 mb-3">
+                <p className="text-2xl font-bold text-[#ffabf2] mb-3">
                   R$ {cake.price.toFixed(2).replace('.', ',')}
                 </p>
                 <p className="text-gray-600 leading-relaxed">

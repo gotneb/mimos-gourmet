@@ -16,13 +16,13 @@ const Header = () => {
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link to="/menu" className="text-gray-700 hover:text-orange-500 transition-colors">
+          <Link to="/menu" className="text-gray-700 hover:text-[#ffabf2] transition-colors">
             Cardápio
           </Link>
-          <Link to="/about" className="text-gray-700 hover:text-orange-500 transition-colors">
+          <Link to="/about" className="text-gray-700 hover:text-[#ffabf2] transition-colors">
             Sobre
           </Link>
-          <Link to="/contact" className="text-gray-700 hover:text-orange-500 transition-colors">
+          <Link to="/contact" className="text-gray-700 hover:text-[#ffabf2] transition-colors">
             Contato
           </Link>
         </nav>

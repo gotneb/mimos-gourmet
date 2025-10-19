@@ -18,17 +18,17 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/menu" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/menu" className="text-gray-300 hover:text-[#ffabf2] transition-colors">
                   Cardápio
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/about" className="text-gray-300 hover:text-[#ffabf2] transition-colors">
                   Sobre Nós
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/contact" className="text-gray-300 hover:text-[#ffabf2] transition-colors">
                   Contato
                 </Link>
               </li>
@@ -41,21 +41,21 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors"
+                className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-[#ffabf2] transition-colors"
                 aria-label="Facebook"
               >
                 <span className="text-sm font-bold">f</span>
               </a>
               <a
                 href="#"
-                className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors"
+                className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-[#ffabf2] transition-colors"
                 aria-label="Twitter"
               >
                 <span className="text-sm">🐦</span>
               </a>
               <a
                 href="#"
-                className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors"
+                className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-[#ffabf2] transition-colors"
                 aria-label="Instagram"
               >
                 <span className="text-sm">📷</span>

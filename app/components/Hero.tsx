@@ -41,7 +41,7 @@ const Hero = ({ cakeCategories }: HeroProps) => {
                 <p className="text-gray-600 mb-4 leading-relaxed">
                   {category.description}
                 </p>
-                <p className="text-orange-500 font-semibold">
+                <p className="text-[#ffabf2] font-semibold">
                   Preço a partir de: R$ {category.startPrice.toFixed(2).replace('.', ',')}
                 </p>
               </div>
