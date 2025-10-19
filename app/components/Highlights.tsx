@@ -11,10 +11,10 @@ const Highlights = ({ featuredCakes }: HighlightsProps) => {
         {/* Section Title */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Our Highlights
+            Nossos Destaques
           </h2>
           <p className="text-lg text-gray-600">
-            A selection of our most loved cakes.
+            Uma seleção dos nossos bolos mais amados.
           </p>
         </div>
 
@@ -37,7 +37,7 @@ const Highlights = ({ featuredCakes }: HighlightsProps) => {
                   {cake.title}
                 </h3>
                 <p className="text-2xl font-bold text-orange-500 mb-3">
-                  ${cake.price.toFixed(2)}
+                  R$ {cake.price.toFixed(2).replace('.', ',')}
                 </p>
                 <p className="text-gray-600 leading-relaxed">
                   {cake.description}

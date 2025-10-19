@@ -2,22 +2,22 @@
   "cakeCategories": [
     {
       "id": "1",
-      "title": "Traditional Cakes",
-      "description": "Classic recipes for every occasion, from birthdays to anniversaries.",
+      "title": "Bolos Tradicionais",
+      "description": "Receitas clássicas para toda ocasião, de aniversários a comemorações.",
       "startPrice": 20.00,
       "image": "/images/product_1.jpeg"
     },
     {
       "id": "2",
-      "title": "Fest Kits",
-      "description": "Complete party packages with cakes, cupcakes, and matching sweets.",
+      "title": "Kits de Festa",
+      "description": "Pacotes completos para festas com bolos, cupcakes e doces combinados.",
       "startPrice": 45.00,
       "image": "/images/product_2.jpeg"
     },
     {
       "id": "3",
-      "title": "Special Cakes",
-      "description": "Unique and themed cakes for those truly special moments in life.",
+      "title": "Bolos Especiais",
+      "description": "Bolos únicos e temáticos para aqueles momentos verdadeiramente especiais da vida.",
       "startPrice": 35.00,
       "image": "/images/product_3.jpeg"
     }
@@ -25,23 +25,23 @@
   "featuredCakes": [
     {
       "id": "1",
-      "title": "Chocolate Fudge Cake",
+      "title": "Bolo de Chocolate Fudge",
       "price": 25.00,
-      "description": "A rich and moist chocolate cake layered with creamy fudge frosting. Made with premium cocoa and fresh butter.",
+      "description": "Um bolo de chocolate rico e úmido com camadas de cobertura cremosa de fudge. Feito com cacau premium e manteiga fresca.",
       "image": "/images/product_8.jpeg"
     },
     {
       "id": "2",
-      "title": "Red Velvet Cake",
+      "title": "Bolo Red Velvet",
       "price": 28.00,
-      "description": "A classic southern red velvet cake with a hint of cocoa, topped with a smooth cream cheese frosting.",
+      "description": "Um clássico bolo red velvet com um toque de cacau, coberto com uma suave cobertura de cream cheese.",
       "image": "/images/product_9.jpeg"
     },
     {
       "id": "3",
-      "title": "Strawberry Shortcake",
+      "title": "Bolo de Morango",
       "price": 22.00,
-      "description": "Light and airy sponge cake layered with fresh strawberries and whipped cream. A perfect summer treat.",
+      "description": "Bolo esponjoso leve e arejado com camadas de morangos frescos e chantilly. Um deleite perfeito para o verão.",
       "image": "/images/product_11.jpeg"
     }
   ]

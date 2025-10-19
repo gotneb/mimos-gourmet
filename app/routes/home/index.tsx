@@ -7,8 +7,8 @@ import type { CakeCategory, FeaturedCake } from "~/models/Product";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Sweet Delights Bakery" },
-    { name: "description", content: "Welcome to Sweet Delights Bakery - Handcrafted with love, baked to perfection." },
+    { title: "Mimos Gourmet" },
+    { name: "description", content: "Bem-vindo ao Mimos Gourmet - Feito com amor, assado à perfeição." },
   ];
 }
 

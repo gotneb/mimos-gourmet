@@ -11,10 +11,10 @@ const Hero = ({ cakeCategories }: HeroProps) => {
         {/* Section Title */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Our Delicious Offerings
+            Nossas Deliciosas Ofertas
           </h2>
           <p className="text-lg text-gray-600">
-            Handcrafted with love, baked to perfection.
+            Feito com amor, assado à perfeição.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ const Hero = ({ cakeCategories }: HeroProps) => {
                   {category.description}
                 </p>
                 <p className="text-orange-500 font-semibold">
-                  Start Price: ${category.startPrice.toFixed(2)}
+                  Preço a partir de: R$ {category.startPrice.toFixed(2).replace('.', ',')}
                 </p>
               </div>
             </div>

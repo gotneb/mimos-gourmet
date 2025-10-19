@@ -7,29 +7,29 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Sweet Delights Bakery</h3>
+            <h3 className="text-xl font-bold mb-4">Mimos Gourmet</h3>
             <p className="text-gray-300">
-              The best cakes in town, baked with passion.
+              Os melhores bolos da cidade, feitos com paixão.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+            <h3 className="text-xl font-bold mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/menu" className="text-gray-300 hover:text-white transition-colors">
-                  Menu
+                  Cardápio
                 </Link>
               </li>
               <li>
                 <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
-                  About Us
+                  Sobre Nós
                 </Link>
               </li>
               <li>
                 <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
-                  Contact
+                  Contato
                 </Link>
               </li>
             </ul>
@@ -37,7 +37,7 @@ const Footer = () => {
 
           {/* Social Media */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Follow Us</h3>
+            <h3 className="text-xl font-bold mb-4">Siga-nos</h3>
             <div className="flex space-x-4">
               <a
                 href="#"
@@ -67,7 +67,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2023 Sweet Delights Bakery. All rights reserved.
+            © 2023 Mimos Gourmet. Todos os direitos reservados.
           </p>
         </div>
       </div>
