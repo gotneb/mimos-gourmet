@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import type { CakeCategory } from "~/models/Product";
 
 interface HeroProps {
@@ -21,9 +22,10 @@ const Hero = ({ cakeCategories }: HeroProps) => {
         {/* Cake Categories Grid */}
         <div className="grid md:grid-cols-3 gap-8">
           {cakeCategories.map((category) => (
-            <div
+            <Link
               key={category.id}
-              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer"
+              to={`/products/${category.id}`}
+              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer block"
             >
               <div className="aspect-square overflow-hidden">
                 <img
@@ -43,7 +45,7 @@ const Hero = ({ cakeCategories }: HeroProps) => {
                   Preço a partir de: R$ {category.startPrice.toFixed(2).replace('.', ',')}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

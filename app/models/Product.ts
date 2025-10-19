@@ -22,3 +22,21 @@ export type FeaturedCake = {
   description: string;
   image: string;
 };
+
+export type ProductOption = {
+  id: string;
+  name: string;
+  price: number;
+};
+
+export type ProductDetail = {
+  id: string;
+  title: string;
+  description: string;
+  basePrice: number;
+  images: string[];
+  flavors: ProductOption[];
+  sizes: ProductOption[];
+  batterTypes: ProductOption[];
+  category: string;
+};

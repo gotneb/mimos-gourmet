@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import type { FeaturedCake } from "~/models/Product";
 
 interface HighlightsProps {
@@ -21,15 +22,16 @@ const Highlights = ({ featuredCakes }: HighlightsProps) => {
         {/* Featured Cakes Grid */}
         <div className="grid md:grid-cols-3 gap-8">
           {featuredCakes.map((cake) => (
-            <div
+            <Link
               key={cake.id}
-              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+              to={`/products/${cake.id}`}
+              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow block"
             >
-              <div className="aspect-square">
+              <div className="aspect-square overflow-hidden">
                 <img
                   src={cake.image}
                   alt={cake.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                 />
               </div>
               <div className="p-6">
@@ -43,7 +45,7 @@ const Highlights = ({ featuredCakes }: HighlightsProps) => {
                   {cake.description}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

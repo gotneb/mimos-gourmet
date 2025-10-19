@@ -44,5 +44,95 @@
       "description": "Bolo esponjoso leve e arejado com camadas de morangos frescos e chantilly. Um deleite perfeito para o verão.",
       "image": "/images/product_11.jpeg"
     }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Bolo Tradicional",
+      "description": "Nossos bolos tradicionais são feitos com os melhores ingredientes e assados à perfeição. Escolha entre uma variedade de sabores e tamanhos para criar o bolo perfeito para sua ocasião especial.",
+      "basePrice": 50.00,
+      "images": [
+        "/images/product_1.jpeg",
+        "/images/product_8.jpeg",
+        "/images/product_9.jpeg",
+        "/images/product_11.jpeg"
+      ],
+      "flavors": [
+        { "id": "1", "name": "Chocolate", "price": 2.00 },
+        { "id": "2", "name": "Baunilha", "price": 0.00 },
+        { "id": "3", "name": "Morango", "price": 3.00 },
+        { "id": "4", "name": "Limão", "price": 2.50 }
+      ],
+      "sizes": [
+        { "id": "1", "name": "6 polegadas (Serve 6-8 pessoas)", "price": 0.00 },
+        { "id": "2", "name": "8 polegadas (Serve 10-12 pessoas)", "price": 15.00 },
+        { "id": "3", "name": "10 polegadas (Serve 15-20 pessoas)", "price": 25.00 },
+        { "id": "4", "name": "12 polegadas (Serve 25-30 pessoas)", "price": 40.00 }
+      ],
+      "batterTypes": [
+        { "id": "1", "name": "Cobertura Clássica de Manteiga", "price": 0.00 },
+        { "id": "2", "name": "Cobertura de Chocolate", "price": 5.00 },
+        { "id": "3", "name": "Cobertura de Cream Cheese", "price": 3.00 },
+        { "id": "4", "name": "Cobertura de Ganache", "price": 7.00 }
+      ],
+      "category": "Bolos Tradicionais"
+    },
+    {
+      "id": "2",
+      "title": "Bolo de Chocolate Fudge",
+      "description": "Um bolo de chocolate rico e úmido com camadas de cobertura cremosa de fudge. Feito com cacau premium e manteiga fresca.",
+      "basePrice": 25.00,
+      "images": [
+        "/images/product_8.jpeg",
+        "/images/product_1.jpeg",
+        "/images/product_9.jpeg",
+        "/images/product_11.jpeg"
+      ],
+      "flavors": [
+        { "id": "1", "name": "Chocolate Fudge", "price": 0.00 },
+        { "id": "2", "name": "Chocolate com Morango", "price": 3.00 },
+        { "id": "3", "name": "Chocolate com Caramelo", "price": 4.00 },
+        { "id": "4", "name": "Chocolate com Nozes", "price": 5.00 }
+      ],
+      "sizes": [
+        { "id": "1", "name": "6 polegadas (Serve 6-8 pessoas)", "price": 0.00 },
+        { "id": "2", "name": "8 polegadas (Serve 10-12 pessoas)", "price": 15.00 },
+        { "id": "3", "name": "10 polegadas (Serve 15-20 pessoas)", "price": 25.00 }
+      ],
+      "batterTypes": [
+        { "id": "1", "name": "Cobertura de Fudge", "price": 0.00 },
+        { "id": "2", "name": "Cobertura de Ganache", "price": 5.00 },
+        { "id": "3", "name": "Cobertura de Chocolate", "price": 3.00 }
+      ],
+      "category": "Bolos Especiais"
+    },
+    {
+      "id": "3",
+      "title": "Bolo Red Velvet",
+      "description": "Um clássico bolo red velvet com um toque de cacau, coberto com uma suave cobertura de cream cheese.",
+      "basePrice": 28.00,
+      "images": [
+        "/images/product_9.jpeg",
+        "/images/product_8.jpeg",
+        "/images/product_1.jpeg",
+        "/images/product_11.jpeg"
+      ],
+      "flavors": [
+        { "id": "1", "name": "Red Velvet Clássico", "price": 0.00 },
+        { "id": "2", "name": "Red Velvet com Morango", "price": 4.00 },
+        { "id": "3", "name": "Red Velvet com Chocolate", "price": 3.00 }
+      ],
+      "sizes": [
+        { "id": "1", "name": "6 polegadas (Serve 6-8 pessoas)", "price": 0.00 },
+        { "id": "2", "name": "8 polegadas (Serve 10-12 pessoas)", "price": 15.00 },
+        { "id": "3", "name": "10 polegadas (Serve 15-20 pessoas)", "price": 25.00 }
+      ],
+      "batterTypes": [
+        { "id": "1", "name": "Cobertura de Cream Cheese", "price": 0.00 },
+        { "id": "2", "name": "Cobertura de Chocolate", "price": 3.00 },
+        { "id": "3", "name": "Cobertura de Baunilha", "price": 2.00 }
+      ],
+      "category": "Bolos Especiais"
+    }
   ]
 }
