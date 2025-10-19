@@ -11,7 +11,7 @@ const Hero = ({ cakeCategories }: HeroProps) => {
         {/* Section Title */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Explore Our Delicious Cakes
+            Our Delicious Offerings
           </h2>
           <p className="text-lg text-gray-600">
             Handcrafted with love, baked to perfection.
@@ -19,25 +19,28 @@ const Hero = ({ cakeCategories }: HeroProps) => {
         </div>
 
         {/* Cake Categories Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-3 gap-8">
           {cakeCategories.map((category) => (
             <div
               key={category.id}
               className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer"
             >
-              <div className="aspect-square">
+              <div className="aspect-square overflow-hidden">
                 <img
                   src={category.image}
                   alt={category.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                 />
               </div>
-              <div className="p-4">
-                <h3 className="font-semibold text-gray-800 mb-1">
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-800 mb-3">
                   {category.title}
                 </h3>
-                <p className="text-sm text-gray-600">
-                  {category.subtitle}
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  {category.description}
+                </p>
+                <p className="text-orange-500 font-semibold">
+                  Start Price: ${category.startPrice.toFixed(2)}
                 </p>
               </div>
             </div>

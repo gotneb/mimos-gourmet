@@ -10,7 +10,8 @@ export type Product = {
 export type CakeCategory = {
   id: string;
   title: string;
-  subtitle: string;
+  description: string;
+  startPrice: number;
   image: string;
 };
 

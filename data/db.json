@@ -3,44 +3,23 @@
     {
       "id": "1",
       "title": "Traditional Cakes",
-      "subtitle": "Price varies on size & flavor",
+      "description": "Classic recipes for every occasion, from birthdays to anniversaries.",
+      "startPrice": 20.00,
       "image": "/images/product_1.jpeg"
     },
     {
       "id": "2",
-      "title": "Fest Kits I",
-      "subtitle": "Price varies on size & flavor",
+      "title": "Fest Kits",
+      "description": "Complete party packages with cakes, cupcakes, and matching sweets.",
+      "startPrice": 45.00,
       "image": "/images/product_2.jpeg"
     },
     {
       "id": "3",
       "title": "Special Cakes",
-      "subtitle": "Price varies on size & flavor",
+      "description": "Unique and themed cakes for those truly special moments in life.",
+      "startPrice": 35.00,
       "image": "/images/product_3.jpeg"
-    },
-    {
-      "id": "4",
-      "title": "Customized Cakes",
-      "subtitle": "Price varies on size & flavor",
-      "image": "/images/product_4.jpeg"
-    },
-    {
-      "id": "5",
-      "title": "Kit Fest II",
-      "subtitle": "Price varies on size & flavor",
-      "image": "/images/product_5.jpeg"
-    },
-    {
-      "id": "6",
-      "title": "For Special Moments",
-      "subtitle": "Price varies on size & flavor",
-      "image": "/images/product_6.jpeg"
-    },
-    {
-      "id": "7",
-      "title": "Specials",
-      "subtitle": "Price varies on size & flavor",
-      "image": "/images/product_7.jpeg"
     }
   ],
   "featuredCakes": [
